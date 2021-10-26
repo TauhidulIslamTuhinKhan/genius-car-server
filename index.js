@@ -70,7 +70,7 @@ async function run() {
 
 
 app.get('/', (req, res) => {
-    res.send('Hello World');
+    res.send('Running Genius Server');
 });
 
 app.listen(port, ()=> {
